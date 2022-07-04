@@ -1,0 +1,242 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700|Oswald);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&display=swap');
+
+
+/*!
+ * Bootstrap v3.3.7 (http://getbootstrap.com)
+ * Copyright 2011-2016 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+
+    /* CUSTOM RESETS */
+    h1 {
+        font-size: 52px;
+    }
+
+    /* HERO */
+    .hero-text p {
+        font-size: 20px;
+
+    }
+
+    /* SITEMAIN */
+    /* Section: Map Feature */
+    .section-map-feature {
+        padding-top: 200px;
+    }
+
+    .section-map-feature .btn {
+        margin: 60px 0 165px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+
+    /* CUSTOM RESETS */
+    h1 {
+        font-size: 42px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    p+p {
+        margin-top: 25px;
+    }
+
+    .accordion {
+        margin-top: 30px;
+    }
+
+    /* Buttons */
+    .btn {
+        line-height: 30px;
+        min-width: 100px;
+    }
+
+    /* HEADER */
+    .site-header {
+        padding-top: 40px;
+    }
+
+    /* HERO */
+    .hero-content {
+        padding-top: 65px;
+    }
+
+    .hero-text {
+        max-width: 750px;
+    }
+
+    .hero-text p {
+        font-size: 26px;
+    }
+
+    /* SITEMAIN */
+    /* site-section */
+    .site-section {
+        padding: 60px 0 100px;
+    }
+
+    .heading-separator {
+        padding-bottom: 50px
+    }
+
+    .heading-separator:after {
+        bottom: 20px;
+    }
+
+    .subheading-text {
+        font-size: 18px;
+    }
+
+    /* Section: Features */
+    .section-features h2 {
+        font-size: 26px;
+    }
+
+    /* Section: Services */
+    .section-services .subheading-text {
+        margin-bottom: 60px;
+    }
+
+    .section-services .col-md-3:nth-child(n+3) .service {
+        margin-top: 30px;
+    }
+
+    .service-title {
+        margin: 25px 0 10px;
+    }
+
+    /* Section: Map Feature */
+    .section-map-feature {
+        padding-top: 150px;
+    }
+
+    .section-map-feature h2 {
+        padding-bottom: 25px;
+    }
+
+    .section-map-feature .btn {
+        margin: 45px 0 115px;
+    }
+
+    /* Section: Newsletter */
+    .section-newsletter h2 {
+        padding-bottom: 25px;
+    }
+
+    /* FOOTER */
+    .site-footer {
+        padding-top: 55px;
+    }
+
+    .site-footer>.container {
+        padding-bottom: 120px;
+    }
+
+    .site-footer h3,
+    .site-footer .site-title {
+        margin-bottom: 20px;
+    }
+
+    .site-footer .list-unstyled li+li {
+        margin-top: 15px;
+    }
+
+    /* PAGES */
+    /* 
+	 * Portfolio-item
+	 */
+    .project-info h5 {
+        margin-top: 25px;
+    }
+
+    /* 
+	 * Blog
+	 */
+    /* Sidebar */
+    .sidebar {
+        margin-top: 40px;
+        padding-left: 0;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+
+    /* CUSTOM RESETS */
+    h1 {
+        font-size: 32px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    p+p {
+        margin-top: 20px;
+    }
+
+    /* Buttons */
+
+    .btn {
+        line-height: 30px;
+        font-size: 15px;
+        width: 120px;
+
+
+
+        /* HERO */
+        .hero-content {
+            padding-top: 45px;
+        }
+
+        .hero-text a {
+            font-size: 25px;
+            display: grid;
+        }
+
+        /* Copyright */
+        .copyright {
+            padding: 15px 0;
+        }
+
+        /* PAGES */
+        /* Portfolio */
+
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (max-width : 479px) {
+
+
+        .btn {
+            line-height: 30px;
+            font-size: 8px;
+            width: 100px;
+
+        }
+
+        /* Custom, iPhone Retina */
+        @media only screen and (max-width : 320px) {}
