@@ -1,0 +1,388 @@
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-size: 10px;
+    -webkit-tap-highlight-color: #fff
+}
+
+body {
+    margin: 0;
+    background-color: #000;
+}
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+
+li {
+
+    text-align: center;
+    line-height: 1.5;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+
+a {
+    transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -webkit-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    cursor: pointer;
+    font-size: 60px;
+}
+
+a:hover {
+    color: #797979;
+}
+
+
+p {
+    margin-bottom: 0;
+    line-height: 21px;
+}
+
+
+
+.fanbasespage:hover {
+    color: #740000;
+}
+
+
+a {
+    color: rgb(197, 0, 0);
+    text-decoration: none
+}
+
+h1,
+h2,
+h3 {
+    font-size: 30px;
+    color: #fff;
+    font-family:
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px
+}
+
+/* Buttons */
+
+.pagefooter {
+    background-color: #000204;
+    background-size: 10%;
+    text-align: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+    position: inherit;
+
+}
+
+
+
+.pagefooters {
+    color: #fff;
+    background-color: #111;
+    text-align: center;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+    position: inherit;
+}
+
+.btn {
+    line-height: 30px;
+    width: 160px;
+    font-size: 18px;
+    border: 0;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #797979;
+    background-color: #fff;
+    padding: 0;
+    transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+    -moz-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+    -webkit-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+    -o-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+    -ms-transition: color 0.25s ease-in-out, background-color 0.25s ease-in-out;
+}
+
+.btn-border {
+    border: 2px solid #fdfdfd;
+}
+
+
+/* LAYOUT
+================================================== */
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #111;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+/* HERO
+
+
+================================================== */
+
+.hero {
+
+    height: 100%;
+    width: 100%;
+    display: inline-grid;
+    position: relative;
+    background-image: url(/assets/img/backsite.png);
+    background-size: cover;
+}
+
+
+.overlay:before {
+    content: '';
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.87) 65%, rgba(0, 0, 0, 0.822) 90%);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.hero-content {
+    vertical-align: middle;
+    padding-top: 120px;
+}
+
+.hero-contents {
+    display: flex;
+}
+
+.hero-text {
+    width: 100%;
+    margin: 50px auto;
+    padding: 0 15px;
+    text-align: center;
+}
+
+.hero-texts {
+    text-align: center;
+    font-size: 30px;
+}
+
+.hero-text h1 {
+    position: relative;
+    margin: 0;
+    font-size: 70px;
+}
+
+.hero-text p {
+    position: relative;
+    margin: 45px 0 30px;
+    font-size: 35px;
+    text-decoration: uppercase;
+    color: #c50808;
+}
+
+
+.hero-texts a {
+    position: relative;
+    letter-spacing: 3px;
+    font-size: 20px;
+    text-decoration: uppercase;
+    color: #c50808;
+}
+
+.hero-texts a:hover {
+    color: #f53a3a86;
+}
+
+
+.hero-text .btn {
+    position: relative;
+    background-color: transparent;
+}
+
+.hero-text .btn:hover {
+    background-color: #740000;
+    color: #000;
+}
+
+.hero .breadcrumb {
+    padding-top: 60px;
+    margin-bottom: 0;
+}
+
+.hero .breadcrumb:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 45px;
+    height: 12px;
+    width: 80px;
+    border-top: 5px solid #fff;
+    border-bottom: 3px solid #fff;
+    transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+
+.container {
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        ". .";
+}
+
+.container a,
+h1 {
+    font-size: 20px;
+}
+
+
+/* YOUTUBE
+================================================== */
+.yt-title {
+    margin-top: -200px;
+}
+
+.ytguide {
+
+    height: 100%;
+    width: 100%;
+    display: table;
+    position: relative;
+    background-color: #111;
+}
+
+
+.ytguide-content {
+    vertical-align: middle;
+    padding-top: 20px;
+}
+
+.ytguide-text {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: center;
+}
+
+
+
+.ytguide-text p {
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    margin: 60px 0 45px;
+    font-size: 15px;
+    text-decoration: uppercase;
+    color: #c50808;
+    margin: 10px;
+}
+
+
+.ytguide-texts a {
+    position: relative;
+    letter-spacing: 3px;
+    font-size: 20px;
+    text-decoration: uppercase;
+    color: #c50808;
+}
+
+.ytguide-texts a:hover {
+    color: #f53a3a86;
+}
+
+
+.ytguide-text .btn {
+    position: relative;
+    background-color: transparent;
+}
+
+.ytguide-text .btn:hover {
+    background-color: #740000;
+    color: #000;
+}
+
+.ytguide .breadcrumb {
+    padding-top: 60px;
+    margin-bottom: 0;
+}
+
+.ytguide .breadcrumb:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    bottom: 45px;
+    height: 12px;
+    width: 80px;
+    border-top: 5px solid #fff;
+    border-bottom: 3px solid #fff;
+    transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+
+.tutos {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
