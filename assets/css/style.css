@@ -377,3 +377,12 @@ h1 {
     -o-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
 }
+
+.tutos {
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
