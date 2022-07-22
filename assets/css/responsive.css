@@ -26,6 +26,8 @@ body {
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1199px) {
 
+
+
     /* CUSTOM RESETS */
     h1 {
         font-size: 52px;
@@ -46,6 +48,13 @@ body {
     .section-map-feature .btn {
         margin: 60px 0 165px;
     }
+
+    .hero-text {
+        width: 100%;
+        margin: 50px auto;
+        padding: 0 15px;
+        text-align: center;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -64,122 +73,46 @@ body {
         margin-top: 25px;
     }
 
-    .accordion {
-        margin-top: 30px;
-    }
-
     /* Buttons */
     .btn {
         line-height: 30px;
         min-width: 100px;
     }
 
-    /* HEADER */
-    .site-header {
-        padding-top: 40px;
-    }
-
     /* HERO */
     .hero-content {
-        padding-top: 65px;
+        padding-top: 20px;
     }
 
-    .hero-text {
-        max-width: 750px;
-    }
 
     .hero-text p {
         font-size: 26px;
     }
 
-    /* SITEMAIN */
-    /* site-section */
-    .site-section {
-        padding: 60px 0 100px;
+    .hero {
+
+        height: 100%;
+        width: 100%;
+        display: table;
+        position: relative;
+        background-image: url(/assets/img/backsite.png);
+        background-size: cover;
     }
 
-    .heading-separator {
-        padding-bottom: 50px
+    .hero-text {
+        width: 100%;
+        margin: 60px auto;
+        padding: 0 15px;
+        text-align: center;
     }
 
-    .heading-separator:after {
-        bottom: 20px;
+    .container a,
+    h1 {
+        font-size: 20px;
+        line-height: 1.1;
     }
 
-    .subheading-text {
-        font-size: 18px;
-    }
 
-    /* Section: Features */
-    .section-features h2 {
-        font-size: 26px;
-    }
-
-    /* Section: Services */
-    .section-services .subheading-text {
-        margin-bottom: 60px;
-    }
-
-    .section-services .col-md-3:nth-child(n+3) .service {
-        margin-top: 30px;
-    }
-
-    .service-title {
-        margin: 25px 0 10px;
-    }
-
-    /* Section: Map Feature */
-    .section-map-feature {
-        padding-top: 150px;
-    }
-
-    .section-map-feature h2 {
-        padding-bottom: 25px;
-    }
-
-    .section-map-feature .btn {
-        margin: 45px 0 115px;
-    }
-
-    /* Section: Newsletter */
-    .section-newsletter h2 {
-        padding-bottom: 25px;
-    }
-
-    /* FOOTER */
-    .site-footer {
-        padding-top: 55px;
-    }
-
-    .site-footer>.container {
-        padding-bottom: 120px;
-    }
-
-    .site-footer h3,
-    .site-footer .site-title {
-        margin-bottom: 20px;
-    }
-
-    .site-footer .list-unstyled li+li {
-        margin-top: 15px;
-    }
-
-    /* PAGES */
-    /* 
-	 * Portfolio-item
-	 */
-    .project-info h5 {
-        margin-top: 25px;
-    }
-
-    /* 
-	 * Blog
-	 */
-    /* Sidebar */
-    .sidebar {
-        margin-top: 40px;
-        padding-left: 0;
-    }
 }
 
 /* Small Devices, Tablets */
@@ -191,7 +124,7 @@ body {
     }
 
     h2 {
-        font-size: 28px;
+        font-size: 25px;
     }
 
     p+p {
@@ -206,37 +139,150 @@ body {
         width: 120px;
 
 
+    }
 
-        /* HERO */
-        .hero-content {
-            padding-top: 45px;
-        }
+    /* HERO */
+    .hero-content {
+        padding-top: 45px;
+    }
 
-        .hero-text a {
-            font-size: 25px;
-            display: grid;
-        }
+    .hero-text a {
+        font-size: 18px;
+    }
 
-        /* Copyright */
-        .copyright {
-            padding: 15px 0;
-        }
 
-        /* PAGES */
-        /* Portfolio */
+    .hero {
+
+        height: 100%;
+        width: 100%;
+        display: table;
+        position: relative;
+        background-image: url(/assets/img/backsite.png);
+        background-size: cover;
+    }
+
+    .hero-text {
+        width: 100%;
+        margin: 70px auto;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .container a,
+    h1 {
+        font-size: 15px;
+        line-height: 0.8;
+    }
+
+    /* PAGES */
+    /* Portfolio */
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 479px) {
+
+
+    .btn {
+        line-height: 30px;
+        font-size: 12px;
+        width: 120px;
 
     }
 
-    /* Extra Small Devices, Phones */
-    @media only screen and (max-width : 479px) {
+    .hero-text h1 {
+        position: relative;
+        margin: 0;
+        font-size: 50px;
+        line-height: initial;
+    }
 
 
-        .btn {
-            line-height: 30px;
-            font-size: 8px;
-            width: 100px;
+    .container {
+        display: inline;
+    }
 
-        }
 
-        /* Custom, iPhone Retina */
-        @media only screen and (max-width : 320px) {}
+
+
+
+    .hero {
+
+        height: 100%;
+        width: 100%;
+        display: table;
+        position: relative;
+        background-image: url(/assets/img/backsite.png);
+        background-size: cover;
+    }
+
+    h2 {
+        font-size: 20px;
+        display: inline;
+    }
+
+    .hero-text {
+        width: 100%;
+        margin: 70px auto;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .socials {
+        display: inline-flex;
+        flex-direction: column;
+        column-gap: 10px;
+        row-gap: 5px;
+        margin-top: 15px;
+    }
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+    h2 {
+        font-size: 20px;
+        display: inline;
+    }
+
+    .socials {
+        display: inline-flex;
+        flex-direction: column;
+        column-gap: 10px;
+        row-gap: 5px;
+        margin-top: 15px;
+    }
+
+
+
+    .hero {
+
+        height: 100%;
+        width: 100%;
+        display: table;
+        position: relative;
+        background-image: url(/assets/img/backsite.png);
+        background-size: cover;
+    }
+
+    .container {
+        display: inline;
+    }
+
+    .hero-text h1 {
+        position: relative;
+        margin: 0;
+        font-size: 50px;
+    }
+
+    .hero-text {
+        width: 100%;
+        margin: 70px auto;
+        padding: 0 15px;
+        text-align: center;
+    }
+
+    .comingtoo {
+        display: flex;
+    }
+}
